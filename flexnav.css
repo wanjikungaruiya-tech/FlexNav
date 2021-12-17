@@ -1,0 +1,37 @@
+
+
+body {
+    font-family: 'Roboto', Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.nav {
+    background-color: #333333;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;   
+    color: white;
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-title { 
+    margin-left: 20px;
+}
+.btn {
+    height: 30px;
+    width: 110px;
+    background-color: slateblue;
+    color: white;
+    font-size: 14px;
+    box-shadow: 5px 5px #000000d7;
+    border-image: fill;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
